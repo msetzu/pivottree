@@ -50,13 +50,13 @@ data_set_name = (data_set_name.split('/')[1])
 print(data_set_name)
 
 if 'scaled' in data_set_name:
-    training_folder = 'datasets_setzu_standardized/splits/training_sets/train_'
-    validation_folder = 'datasets_setzu_standardized/splits/validation_sets/validation_'
-    test_folder = 'datasets_setzu_standardized/splits/test_sets/test_'
+    training_folder = 'datasets_stz_standardized/splits/training_sets/train_'
+    validation_folder = 'datasets_stz_standardized/splits/validation_sets/validation_'
+    test_folder = 'datasets_stz_standardized/splits/test_sets/test_'
 else:
-    training_folder = 'datasets_setzu/splits/training_sets/train_'
-    validation_folder = 'datasets_setzu/splits/validation_sets/validation_'
-    test_folder = 'datasets_setzu/splits/test_sets/test_'
+    training_folder = 'datasets_stz/splits/training_sets/train_'
+    validation_folder = 'datasets_stz/splits/validation_sets/validation_'
+    test_folder = 'datasets_stz/splits/test_sets/test_'
 
 print(training_folder + data_set_name)
 
@@ -92,7 +92,7 @@ if mode_of_evaluation not in ['testing', 'validation']:
     
 
 
-data_set_name = 'datasets_setzu/' + data_set_name
+data_set_name = 'datasets_stz/' + data_set_name
 
 def compute_average_and_std(data_list):
     # Define the keys to consider for metrics
