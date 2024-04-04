@@ -26,7 +26,7 @@ For `PT_validation.py`, in order to execute a validation/testing run, the follow
 
 `python PT_validation datasets_stz/df_name.csv approximation mode_of_evaluation`, where 
 
-- 'df_name.csv' is the dataset name
+- `df_name.csv` is the dataset name
 - approximation can be True/False
 - mode_of_evalution can be 'validation' or 'testing'
 
@@ -43,6 +43,9 @@ without considering the approximation parameter. METHOD_validation can be identi
 For instance, to get validation results on a dataset named  `tennisgpt_embed.csv` considering k-Means and k-Medoids selection methods, you can run:
 
 `python CENTROIDS_validation datasets_stz/tennisgpt_embed.csv validation`
+
+#### Qualitative results
+Info about qualtiative visualizations are available in the `Qualitative_Pivot_Tree.ipynb` file
 
 
 
