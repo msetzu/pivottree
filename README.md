@@ -1,3 +1,7 @@
+### Paper and slides
+Original papers: [ECML/PKDD proceedings](https://link.springer.com/chapter/10.1007/978-3-031-70341-6_22)
+Presentation: [Pivot Tree](https://github.com/msetzu/marpee/tree/gallery/pivottree)
+
 ### Dataset info
 
 `datasets_info.md` contains info about datasets sources. The pre-processing employed for each dataset is specified in the relative paper section.
