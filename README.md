@@ -1,6 +1,7 @@
 ### Paper and slides
-Original papers: [ECML/PKDD proceedings](https://link.springer.com/chapter/10.1007/978-3-031-70341-6_22)
-Presentation: [Pivot Tree](https://github.com/msetzu/marpee/tree/gallery/pivottree)
+- Original paper: [ECML/PKDD proceedings](https://link.springer.com/chapter/10.1007/978-3-031-70341-6_22)
+- Presentation slides: [Pivot Tree](https://github.com/msetzu/marpee/tree/gallery/pivottree)
+- Poster: [Pivot Tree](https://github.com/msetzu/pivottree/blob/master/poster.pdf)
 
 ### Dataset info
 
